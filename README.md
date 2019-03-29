@@ -42,13 +42,13 @@
 
 ## Docker commands:
 ### To build:
-    sudo docker build -t (your docker user name)/loopback4(this is your docker app name) .
+    sudo docker build -t theranjitkumar/loopback4 .
 ### To run:
-    sudo docker run -p 3000:3000 -d (your docker user name)/loopback4
+    sudo docker run -p 3000:3000 theranjitkumar/loopback4
 ### To login Docker
     sudo docker login
 ### To push
-    sudo docker push (your docker user name)/loopback4
+    sudo docker push theranjitkumar/loopback4
 ###    other cmd
     sudo docker ps
     sudo docker image
