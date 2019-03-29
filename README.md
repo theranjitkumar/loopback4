@@ -2,3 +2,6 @@
 
 ##  User :
     CRUD api => /users
+
+##  Admin :
+    CRUD api => /admins

@@ -1,7 +1,7 @@
-import {Model, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
-@model({settings: {"strict":false}})
-export class Admin extends Model {
+@model({ settings: { "strict": false } })
+export class Admin extends Entity {
   @property({
     type: 'string',
     id: true,
